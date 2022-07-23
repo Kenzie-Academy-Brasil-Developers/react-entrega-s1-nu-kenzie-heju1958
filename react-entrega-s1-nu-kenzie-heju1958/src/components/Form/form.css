@@ -1,0 +1,40 @@
+form {
+  position: absolute;
+  padding: 2rem;
+  left: 20rem;
+  top: 7rem;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 25rem;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  gap: 1rem;
+}
+@media (max-width: 1600px) {
+  form {
+    left: 1rem;
+  }
+}
+.btn_form {
+  height: 5rem;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+input,
+select {
+  padding: 0.4rem;
+  height: 3rem;
+  background: #f8f9fa;
+  border: 1.4px solid #f8f9fa;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.p_form {
+  font-size: 15px;
+  font-weight: lighter;
+}

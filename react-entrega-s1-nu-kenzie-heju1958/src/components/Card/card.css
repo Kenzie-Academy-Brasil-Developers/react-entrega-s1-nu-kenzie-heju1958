@@ -1,0 +1,51 @@
+.li_Card {
+  position: relative;
+  width: 35rem;
+  height: 6rem;
+  margin: 2rem;
+  background: #f8f9fa;
+  border-radius: 1rem;
+  list-style: none;
+}
+@media (max-width: 600px) {
+  .li_Card {
+    width: 24rem;
+  }
+  @media (max-width: 425px) {
+    .li_Card {
+      margin: 1.4rem;
+    }
+  }
+}
+.li_Card:hover {
+  background: #ffffff;
+  box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+}
+.btn_Remove {
+  position: absolute;
+  margin-top: 0.4rem;
+  width: 1.4rem;
+  height: 1.5rem;
+  right: 1rem;
+  border: none;
+  background: #e9ecef;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.div_Card--description {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.div_Card--type {
+  padding: 0.5rem;
+}
+.div_Card--value {
+  position: absolute;
+  right: 10rem;
+  top: 1rem;
+}
+@media (max-width: 600px) {
+  .div_Card--value {
+    right: 5rem;
+  }
+}

@@ -1,0 +1,20 @@
+.div_totalMoney {
+  position: absolute;
+  top: 38rem;
+  padding: 1.6rem;
+  left: 20rem;
+  width: 21rem;
+  height: 4rem;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+@media (max-width: 1600px) {
+  .div_totalMoney {
+    left: 1rem;
+  }
+}
+span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
