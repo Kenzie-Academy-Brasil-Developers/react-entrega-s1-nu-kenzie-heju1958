@@ -18,6 +18,16 @@ form {
     left: 1rem;
   }
 }
+@media (max-width: 768px) {
+  form {
+    left: 12rem;
+  }
+}
+@media (max-width: 425px) {
+  form {
+    left: 1rem;
+  }
+}
 .btn_form {
   height: 5rem;
   background: #e9ecef;

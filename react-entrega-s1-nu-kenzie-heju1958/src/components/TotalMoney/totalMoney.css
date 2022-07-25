@@ -14,6 +14,16 @@
     left: 1rem;
   }
 }
+@media (max-width: 768px) {
+  .div_totalMoney {
+    left: 12rem;
+  }
+}
+@media (max-width: 425px) {
+  .div_totalMoney {
+    left: 1rem;
+  }
+}
 span {
   font-size: 1.2rem;
   font-weight: bold;

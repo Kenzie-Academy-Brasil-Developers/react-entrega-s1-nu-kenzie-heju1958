@@ -6,14 +6,6 @@ import { useState } from "react";
 
 import "./App.css";
 
-//estilo = figma(form)
-
-//*card => entrada terá um detalhe verde no card,
-// e caso seja saída esse detalhe será cinza.
-
-// extras:
-//pagina inicial
-
 function App() {
   const [listTransactions, setListTransactions] = useState([
     { description: "Salário recebido", type: "entrada", value: 2500 },
@@ -42,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="header_App">
-        <img src="./Assets/Nu kenzie.png" alt="logo" className="logo" />{" "}
+        <img src="./Assets/nuKenzie.png" alt="logo" className="logo" />{" "}
         <button className="btn_Inicio">Inicio</button>
       </header>
       <Form

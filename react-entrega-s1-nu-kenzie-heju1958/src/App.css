@@ -57,6 +57,11 @@ button:hover {
     left: 1rem;
   }
 }
+@media (max-width: 768px) {
+  .div_App {
+    left: 18.4rem;
+  }
+}
 @media (max-width: 425px) {
   .div_App {
     left: 2rem;
@@ -76,6 +81,11 @@ button:hover {
   .div_Btns {
     top: 50rem;
     left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .div_Btns {
+    left: 15rem;
   }
 }
 @media (max-width: 425px) {

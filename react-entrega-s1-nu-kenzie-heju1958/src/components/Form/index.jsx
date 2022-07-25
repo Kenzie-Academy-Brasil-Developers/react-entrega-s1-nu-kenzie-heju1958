@@ -13,7 +13,14 @@ const Form = ({ listTransactions, setListTransactions }) => {
       type: userInputSelect,
       value: Number(userInputValue),
     };
+    validad(obj);
     setListTransactions([obj, ...listTransactions]);
+  };
+
+  const validad = (obj) => {
+    if (obj.type === "saída") {
+      obj.value = -obj.value;
+    }
   };
 
   return (

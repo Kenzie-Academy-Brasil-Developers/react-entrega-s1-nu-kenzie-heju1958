@@ -7,14 +7,19 @@
   border-radius: 1rem;
   list-style: none;
 }
+@media (max-width: 768px) {
+  .li_Card {
+    width: 44rem;
+  }
+}
 @media (max-width: 600px) {
   .li_Card {
     width: 24rem;
   }
-  @media (max-width: 425px) {
-    .li_Card {
-      margin: 1.4rem;
-    }
+}
+@media (max-width: 425px) {
+  .li_Card {
+    margin: 1.4rem;
   }
 }
 .li_Card:hover {
