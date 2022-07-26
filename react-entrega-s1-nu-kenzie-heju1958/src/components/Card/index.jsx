@@ -15,7 +15,17 @@ const Card = ({ transaction, index, removeCard }) => {
             <img src="./Assets/trash.png" alt="excluir" className="icon_Card" />
           </button>
         </div>
-        <div className="div_Card--type">{transaction.type}</div>
+        <>
+          {transaction.type === "entrada" ? (
+            <div className="div_Card--type--entrada">
+              <span className="span_entrada">{transaction.type}</span>
+            </div>
+          ) : (
+            <div className="div_Card--type--saida">
+              <span className="span_saida">{transaction.type}</span>
+            </div>
+          )}
+        </>
         <div className="div_Card--value">R$ {transaction.value},00</div>
       </li>
     </>

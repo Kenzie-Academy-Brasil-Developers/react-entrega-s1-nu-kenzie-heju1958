@@ -41,8 +41,37 @@
   font-size: 1.3rem;
   font-weight: 900;
 }
-.div_Card--type {
-  padding: 0.5rem;
+.div_Card--type--saida {
+  background-color: rgb(204, 210, 216);
+  position: absolute;
+  width: 0.3rem;
+  height: 6rem;
+  top: 0;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+.span_saida {
+  font-weight: lighter;
+  position: relative;
+  top: 3rem;
+  left: 0.8rem;
+  font-size: 1rem;
+}
+.div_Card--type--entrada {
+  background-color: rgb(196, 255, 196);
+  position: absolute;
+  width: 0.3rem;
+  height: 6rem;
+  top: 0;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+.span_entrada {
+  font-weight: lighter;
+  position: relative;
+  top: 3rem;
+  left: 0.8rem;
+  font-size: 1rem;
 }
 .div_Card--value {
   position: absolute;
