@@ -7,7 +7,8 @@ const TotalMoney = ({ listTransactions }) => {
 
   return (
     <div className="div_totalMoney">
-      <span>Valor total: R$ {sum},00</span>
+      <span>Valor total: </span>
+      <span className="span_money">R$ {sum},00</span>
       <p className="p_totalMoney">O valor se refere ao saldo</p>
     </div>
   );

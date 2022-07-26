@@ -28,3 +28,8 @@ span {
   font-size: 1.2rem;
   font-weight: bold;
 }
+.span_money {
+  position: relative;
+  left: 9rem;
+  color: #fd377e;
+}
