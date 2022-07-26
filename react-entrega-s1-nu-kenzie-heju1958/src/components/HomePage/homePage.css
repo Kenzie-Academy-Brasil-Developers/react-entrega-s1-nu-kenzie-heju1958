@@ -1,0 +1,74 @@
+.div_homePage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #212529;
+  color: #fff;
+}
+.div_homePage--textos {
+  position: absolute;
+  width: 25rem;
+  top: 15rem;
+  left: 22rem;
+}
+@media (max-width: 1660px) {
+  .div_homePage--textos {
+    left: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .div_homePage--textos {
+    left: 13rem;
+  }
+}
+@media (max-width: 743px) {
+  .div_homePage--textos {
+    left: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .div_homePage--textos {
+    left: 1rem;
+    width: 18.8rem;
+  }
+}
+.p1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+@media (max-width: 425px) {
+  .p1 {
+    font-size: 2.5rem;
+  }
+}
+.button_homePage {
+  background: #fd377e;
+  color: #fff;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+}
+.button_homePage:hover {
+  background: #fff;
+  color: #fd377e;
+  border: 2px solid #fff;
+}
+.img_homePage {
+  position: absolute;
+  top: 10rem;
+  right: 20rem;
+}
+@media (max-width: 1660px) {
+  .img_homePage {
+    right: 1rem;
+  }
+}
+@media (max-width: 948px) {
+  .img_homePage {
+    display: none;
+  }
+}
